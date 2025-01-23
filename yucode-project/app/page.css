@@ -1,0 +1,119 @@
+.title {
+    font-size: 1.6rem;
+}
+
+.filter-title {
+    font-weight: bold;
+}
+
+.label-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px 30px;
+}
+
+.submit-area {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.reset-button {
+    margin-right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.submit-button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.data-hed {
+    display: flex;
+    gap: 60px
+}
+
+.affiliation-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+thead tr {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr {
+    border-bottom: 1px solid #000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr {
+    padding: 8px;
+}
+
+td {
+    padding: 8px 30px;
+    text-align: center;
+}
+
+.update-button {
+    margin-right: 5px;
+}
+
+.register {
+    border: solid 1px #000;
+    padding: 2px 18px;
+}
+
+/*新規登録モーダル*/
+.register-modal {
+    padding: 50px 120px;
+    box-shadow: 0 2px 6px #000;
+    position: absolute;
+    background-color: #fff;
+    transform: translateY(240px);
+}
+
+.register-input {
+    border: solid 1px #000;
+}
+
+.register-button-area {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.register-close {
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.register-button {
+    border: solid 1px #000;
+}
+
+/*ページネーション*/
+.pagination-area {
+    display: flex;
+    column-gap: 15px;
+    margin: 0 auto;
+}
+
+.number-btn {
+    padding: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.active {
+    background-color: #000;
+    color: #fff;
+}
+
